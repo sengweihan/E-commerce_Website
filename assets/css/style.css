@@ -1,0 +1,30 @@
+/* IMPORTING GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow&family=Roboto&display=swap");
+/* SET UP CSS RESETS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* CSS VARIABLES */
+:root {
+  --main-section-background: #fee2e2;
+}
+/* SET UP GLOBAL STYLES */
+body {
+  /* font-family: "Bebas Neue", sans-serif; */
+  font-family: "PT Sans Narrow", sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  background-color: var(--main-section-background);
+}
+
+/* MAIN HEADER STYLING (UPMOST TOP PORTION (INCLUDING NAVIGATION BAR)) */
+.main-header-text {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: lighter;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
