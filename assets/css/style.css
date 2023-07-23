@@ -18,8 +18,8 @@
 body {
   height: 100vh;
   width: 100%;
-  font-family: "PT Sans Narrow", sans-serif;
-  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: "PT Sans Narrow", sans-serif; */
+  font-family: "Roboto", sans-serif;
   background-color: var(--main-section-background);
 }
 
@@ -32,6 +32,7 @@ body {
 }
 
 .main-header-text {
+  font-family: "PT Sans Narrow", sans-serif;
   font-weight: lighter;
   font-size: 2rem;
   letter-spacing: 0.2rem;
@@ -39,7 +40,6 @@ body {
 }
 
 .nav-bar ul {
-  font-family: "Roboto", sans-serif;
   list-style-type: none;
   display: flex;
   margin-top: 1.8rem;
@@ -78,18 +78,17 @@ body {
 }
 
 .home-content h1 {
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 4.5rem;
   letter-spacing: 0.7rem;
 }
 
 .home-content h2 {
   font-size: 4rem;
-  font-family: "Roboto", sans-serif;
   font-weight: lighter;
 }
 
 .home-content p {
-  font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
 }
 
@@ -103,3 +102,5 @@ body {
   font-size: 1.1rem;
   text-align: center;
 }
+
+/* NEW ARRIVAL SECTION */
