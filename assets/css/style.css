@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 /* SET UP CSS RESETS */
 * {
   padding: 0;
@@ -15,7 +16,8 @@
 }
 /* SET UP GLOBAL STYLES */
 body {
-  /* font-family: "Bebas Neue", sans-serif; */
+  height: 100vh;
+  width: 100%;
   font-family: "PT Sans Narrow", sans-serif;
   /* font-family: 'Roboto', sans-serif; */
   background-color: var(--main-section-background);
@@ -30,7 +32,6 @@ body {
 }
 
 .main-header-text {
-  font-family: "PT Sans Narrow", sans-serif;
   font-weight: lighter;
   font-size: 2rem;
   letter-spacing: 0.2rem;
@@ -53,7 +54,7 @@ body {
 
 .nav-icon ul {
   display: flex;
-  margin-top: 1.8rem;
+  margin-top: 1.4rem;
   margin-right: 3.5rem;
   list-style-type: none;
   gap: 1.3rem;
@@ -64,4 +65,41 @@ body {
   text-decoration: none;
   font-size: 1.5rem;
   position: relative;
+}
+
+/* STYLING THE HOME SECTION */
+.home-content {
+  background-image: url(../images/Home-background/oleg-ivanov-VwxNJRHQLjA-unsplash.jpg);
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center center;
+  padding: 10rem 0 3rem 9rem;
+}
+
+.home-content h1 {
+  font-size: 4.5rem;
+  letter-spacing: 0.7rem;
+}
+
+.home-content h2 {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+.home-content p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+}
+
+.home-content a {
+  border-radius: 5px;
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  text-align: center;
 }
