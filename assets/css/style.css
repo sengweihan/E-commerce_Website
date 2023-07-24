@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap");
 /* SET UP CSS RESETS */
 * {
   padding: 0;
@@ -13,9 +14,13 @@
 /* CSS VARIABLES */
 :root {
   --main-section-background: white;
+  --main-text-color: black;
+  --nav-text-color: rgba(0, 0, 0, 0.842);
+  --main-star-color: #f59e0b;
 }
 /* SET UP GLOBAL STYLES */
 body {
+  scroll-behavior: smooth;
   height: 100vh;
   width: 100%;
   /* font-family: "PT Sans Narrow", sans-serif; */
@@ -48,8 +53,25 @@ body {
 
 .nav-bar ul li a {
   text-decoration: none;
-  color: black;
+  color: var(--nav-text-color);
   font-size: 1.1rem;
+  position: relative;
+}
+
+.nav-bar ul li a:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -9px;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.505);
+  transition: 0.5s;
+}
+
+.nav-bar ul li a:hover:after {
+  width: 100%;
 }
 
 .nav-icon ul {
@@ -61,7 +83,7 @@ body {
 }
 
 .nav-icon ul li a {
-  color: black;
+  color: var(--main-text-color);
   text-decoration: none;
   font-size: 1.5rem;
   position: relative;
@@ -92,15 +114,93 @@ body {
   font-size: 1.1rem;
 }
 
-.home-content a {
+.home-content .disc-btn {
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid var(--main-text-color);
   color: white;
-  background-color: black;
+  background-color: var(--main-text-color);
   padding: 0.5rem 1.5rem;
   text-decoration: none;
   font-size: 1.1rem;
   text-align: center;
+  cursor: pointer;
 }
 
-/* NEW ARRIVAL SECTION */
+/* NEW ARRIVAL SECTION  STYLING*/
+.new-arrival-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 7rem;
+}
+.new-arrival-title {
+  margin-bottom: 2rem;
+}
+
+.new-arrival-title h1 {
+  letter-spacing: 0.2rem;
+  font-size: 2.7rem;
+}
+
+.new-arrival-nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.new-arrival-nav ul li a {
+  color: rgba(0, 0, 0, 0.694);
+  text-decoration: none;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.53);
+  left: 0;
+  bottom: -5px;
+}
+.new-arrival-items {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.item-image {
+  margin-bottom: 1.2rem;
+}
+
+.item-image img {
+  border-radius: 13px;
+}
+
+.item-desc-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-desc-1 .bx-heart {
+  font-size: 1.5rem;
+  padding-right: 0.7rem;
+}
+
+.item-desc-2 h3 {
+  font-size: 1.1rem;
+}
+
+.item-desc-2 .star-icon .bxs-star {
+  font-size: 1.2rem;
+  color: var(--main-star-color);
+}
