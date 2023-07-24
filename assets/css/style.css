@@ -17,6 +17,7 @@
   --main-text-color: black;
   --nav-text-color: rgba(0, 0, 0, 0.842);
   --main-star-color: #f59e0b;
+  --item-amount-text: #a3a3a3;
 }
 /* SET UP GLOBAL STYLES */
 body {
@@ -169,6 +170,7 @@ body {
   left: 0;
   bottom: -5px;
 }
+
 .new-arrival-items {
   display: flex;
   gap: 2rem;
@@ -209,13 +211,48 @@ body {
 .winter-section {
   padding-top: 7rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
 
+.winter-items {
+  margin-bottom: 7rem;
+}
+
+.winter-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.winter-item {
+  margin-bottom: 1.3rem;
+}
 .winter-title {
-  font-family: "PT Sans Narrow", sans-serif;
-  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
   letter-spacing: 0.4rem;
   margin-bottom: 2rem;
+}
+
+.winter-image {
+  margin-bottom: 1.2rem;
+}
+.winter-image img {
+  border-radius: 13px;
+}
+
+.winter-item .winter-desc h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+}
+
+.winter-item .winter-desc .items-amount {
+  color: var(--item-amount-text);
+}
+
+/*  WHY CHOOSE US SECTION */
+.why-choose-us {
+  background-color: #fecaca99;
 }
