@@ -54,7 +54,7 @@ body {
 .nav-bar ul li a {
   text-decoration: none;
   color: var(--nav-text-color);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   position: relative;
 }
 
@@ -140,7 +140,7 @@ body {
 
 .new-arrival-title h1 {
   letter-spacing: 0.2rem;
-  font-size: 2.7rem;
+  font-size: 2.2rem;
 }
 
 .new-arrival-nav ul {
@@ -203,4 +203,19 @@ body {
 .item-desc-2 .star-icon .bxs-star {
   font-size: 1.2rem;
   color: var(--main-star-color);
+}
+
+/* WINTER SECTION */
+.winter-section {
+  padding-top: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.winter-title {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+  margin-bottom: 2rem;
 }
