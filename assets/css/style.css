@@ -18,7 +18,7 @@
   --nav-text-color: rgba(0, 0, 0, 0.842);
   --main-star-color: #f59e0b;
   --item-amount-text: #a3a3a3;
-  --background-choose-us-section: #fecaca99;
+  --background-choose-us-section: #fecaca81;
   --section-title-font: "Poppins", sans-serif;
 }
 /* SET UP GLOBAL STYLES */
@@ -261,10 +261,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 2rem;
 }
 
 .why-choose-us h1 {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   font-family: var(--section-title-font);
   letter-spacing: 0.3rem;
   padding: 1.4rem 0;
@@ -302,4 +303,35 @@ body {
 .why-choose-us-content p {
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
+}
+
+/*  STYLING FOR FOOTER SECTION  */
+.winter-footer {
+  background-color: #4f393dda;
+  color: white;
+  padding-top: 2rem;
+}
+
+.footer-header {
+  margin: 0 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid white;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+}
+
+.footer-header .footer-title h3 {
+  font-size: 1.3rem;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer-nav .bx {
+  font-size: 1.3rem;
 }
