@@ -323,6 +323,7 @@ body {
 
 .footer-header .footer-title h3 {
   font-size: 1.3rem;
+  letter-spacing: 0.3rem;
 }
 
 .footer-nav {
@@ -334,4 +335,50 @@ body {
 
 .footer-nav .bx {
   font-size: 1.3rem;
+}
+
+.footer-main {
+  padding: 1.2rem 0;
+  margin: 0 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 15rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.footer-content h4 {
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-content p {
+  color: rgba(255, 255, 255, 0.769);
+}
+
+.footer-content .email-input {
+  border-radius: 5px;
+  border: 1px solid white;
+  height: 35px;
+  padding-left: 1.2rem;
+  width: 250px;
+}
+
+.footer-content form {
+  position: relative;
+}
+.footer-content .submit-btn {
+  position: absolute;
+  top: 5px;
+  left: 150px;
+  height: 25px;
+  width: 80px;
+  color: white;
+  background-color: #4f393dda;
+  border: 1px solid #4f393dda;
+  border-radius: 4px;
 }
