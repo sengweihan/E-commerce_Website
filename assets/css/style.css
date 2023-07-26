@@ -20,6 +20,7 @@
   --item-amount-text: #a3a3a3;
   --background-choose-us-section: #fecaca81;
   --section-title-font: "Poppins", sans-serif;
+  --footer-background: #4f393dda;
 }
 /* SET UP GLOBAL STYLES */
 body {
@@ -307,7 +308,7 @@ body {
 
 /*  STYLING FOR FOOTER SECTION  */
 .winter-footer {
-  background-color: #4f393dda;
+  background-color: var(--footer-background);
   color: white;
   padding-top: 2rem;
 }
@@ -316,6 +317,7 @@ body {
   margin: 0 2.5rem;
   display: flex;
   flex-wrap: wrap;
+  gap: 1.1rem;
   border-bottom: 1px solid white;
   justify-content: space-between;
   padding-bottom: 0.5rem;
@@ -332,7 +334,10 @@ body {
   align-items: center;
   gap: 2rem;
 }
-
+.footer-nav p {
+  color: rgba(255, 255, 255, 0.667);
+  font-size: 0.9rem;
+}
 .footer-nav .bx {
   font-size: 1.3rem;
 }
@@ -341,8 +346,11 @@ body {
   padding: 1.2rem 0;
   margin: 0 2.5rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 15rem;
+  border-bottom: 1px solid white;
+  padding-bottom: 2rem;
 }
 
 .footer-content {
@@ -354,6 +362,7 @@ body {
 
 .footer-content h4 {
   font-family: "Poppins", sans-serif;
+  font-weight: lighter;
 }
 
 .footer-content p {
@@ -363,7 +372,7 @@ body {
 .footer-content .email-input {
   border-radius: 5px;
   border: 1px solid white;
-  height: 35px;
+  height: 40px;
   padding-left: 1.2rem;
   width: 250px;
 }
@@ -375,10 +384,41 @@ body {
   position: absolute;
   top: 5px;
   left: 150px;
-  height: 25px;
-  width: 80px;
+  height: 30px;
+  width: 95px;
   color: white;
-  background-color: #4f393dda;
-  border: 1px solid #4f393dda;
+  background-color: var(--footer-background);
+  border: 1px solid var(--footer-background);
   border-radius: 4px;
+}
+
+.footer-foot {
+  padding: 1.2rem 0;
+  margin: 0 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.footer-foot .footer-foot-title p {
+  color: rgba(255, 255, 255, 0.667);
+  font-size: 0.9rem;
+}
+
+.footer-foot-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.footer-foot-nav nav ul {
+  display: flex;
+  gap: 1.3rem;
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.667);
+  font-size: 0.9rem;
 }
