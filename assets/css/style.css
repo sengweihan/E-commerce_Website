@@ -42,10 +42,12 @@ body {
 
 .main-header-text {
   font-family: "PT Sans Narrow", sans-serif;
-  font-weight: lighter;
   font-size: 2rem;
   letter-spacing: 0.2rem;
   margin: 1.2rem 0 1.2rem 3rem;
+}
+.pink-text {
+  color: #ef4444;
 }
 
 .nav-bar ul {
@@ -70,10 +72,12 @@ body {
   left: 0;
   bottom: -9px;
   border-radius: 12px;
-  background-color: rgba(0, 0, 0, 0.505);
+  background-color: #dc2626;
   transition: 0.5s;
 }
-
+.nav-bar ul li a:hover {
+  color: #dc2626;
+}
 .nav-bar ul li a:hover:after {
   width: 100%;
 }
@@ -120,6 +124,7 @@ body {
 
 .home-content .disc-btn {
   border-radius: 5px;
+  margin-top: 1.1rem;
   border: 1px solid var(--main-text-color);
   color: white;
   background-color: var(--main-text-color);
@@ -130,6 +135,10 @@ body {
   cursor: pointer;
 }
 
+.home-content .disc-btn:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
 /* NEW ARRIVAL SECTION  STYLING*/
 .new-arrival-section {
   display: flex;
@@ -183,12 +192,31 @@ body {
   font-family: var(--section-title-font);
 }
 
+.new-arrival-item-1 {
+  background-color: red;
+}
 .item-image {
   margin-bottom: 1.2rem;
+  position: relative;
 }
 
 .item-image img {
   border-radius: 13px;
+}
+
+.item-image .hot-deal {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 80px;
+  height: 30px;
+  background-color: #dc2626;
+  color: white;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .item-desc-1 {
@@ -196,7 +224,7 @@ body {
   justify-content: space-between;
 }
 
-.item-desc-1 .bx-heart {
+.item-desc-1 .bxs-heart {
   font-size: 1.5rem;
   padding-right: 0.7rem;
 }
@@ -365,10 +393,14 @@ body {
   font-weight: lighter;
 }
 
-.footer-content p {
+.footer-content a {
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.769);
 }
 
+.footer-content a:hover {
+  color: #f59e0b;
+}
 .footer-content .email-input {
   border-radius: 5px;
   border: 1px solid white;
