@@ -1,17 +1,3 @@
-// QUERY SELECTOR FOR HEART ICON.
-
-const heart_icon = document.querySelectorAll(".item-desc-1 .bxs-heart");
-
-heart_icon.forEach((icon) => {
-  icon.addEventListener("click", (event) => {
-    if (event.target.style.color === "red") {
-      event.target.style.color = "black";
-    } else {
-      event.target.style.color = "red";
-    }
-  });
-});
-
 // QUERY SELECTOR FOR ADD TO CART BUTTON.
 const cart_btn = document.querySelectorAll(
   ".new-arrival-item .add-cart button"
@@ -30,4 +16,18 @@ cart_btn.forEach((btn) => {
     event.target.style.backgroundColor = "#dc2626";
     event.target.style.color = "white";
   });
+});
+
+// QUERY SELECTOR FOR HAMBURGER BUTTON.
+const hamburger_btn = document.getElementById("menu-icon");
+const navbar = document.querySelector(".nav-bar ul");
+
+hamburger_btn.addEventListener("click", (event) => {
+  event.target.classList.toggle("bx-x");
+  navbar.classList.toggle("test");
+});
+
+hamburger_btn.addEventListener("onscroll", (event) => {
+  event.target.classList.remove("bx-x");
+  navbar.classList.remove("test");
 });
