@@ -236,9 +236,10 @@ body {
   height: 40px;
   width: 120px;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 0.95rem;
   color: white;
   border-radius: 7px;
+  font-weight: bold;
   border: 1px solid #dc2626;
   background-color: #dc2626;
   opacity: 0;
@@ -246,6 +247,12 @@ body {
   cursor: pointer;
 }
 
+.add-cart button:hover {
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  border: 2px solid #dc2626;
+  font-size: 0.95rem;
+}
 .item-desc-1 {
   text-align: center;
 }
