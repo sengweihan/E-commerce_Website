@@ -10,7 +10,7 @@ A project to create an e-commerce landing page.
 Images are taken from https://unsplash.com/
 
 ## LIVE DEMO
-https://e-commerce-landing-page-v1.netlify.app/ 
+
 
 ## SCREENSHOTS
 ![image](https://github.com/sengweihan/E-commerce_Website/assets/75483818/6921ab32-13f9-4f94-8ce0-e52cdb04421e)
