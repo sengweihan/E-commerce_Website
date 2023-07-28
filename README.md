@@ -15,6 +15,10 @@ https://e-commerce-landing-page-v1.netlify.app/
 
 ![image](https://github.com/sengweihan/E-commerce_Website/assets/75483818/e02bb69f-6baa-4b24-9bbd-18f5ea3beead)
 
+![image](https://github.com/sengweihan/E-commerce_Website/assets/75483818/69329bfd-02c6-4520-a1dd-afb9ebccb15f)
+
+![image](https://github.com/sengweihan/E-commerce_Website/assets/75483818/d9728f61-754f-491f-bb63-781ebe98cbec)
+
 ![image](https://github.com/sengweihan/E-commerce_Website/assets/75483818/34f36805-dbc7-44a2-8b6b-f55585508fd5)
 
 
