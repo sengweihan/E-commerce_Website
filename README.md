@@ -6,6 +6,8 @@ A project to create an e-commerce landing page.
 * CSS
 * JavaScript
 
+## RESOURCES
+Images are taken from https://unsplash.com/
 
 ## LIVE DEMO
 https://e-commerce-landing-page-v1.netlify.app/ 
