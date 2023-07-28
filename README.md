@@ -24,17 +24,21 @@ https://e-commerce-landing-page-v1.netlify.app/
 ![image](https://github.com/sengweihan/E-commerce_Website/assets/75483818/34f36805-dbc7-44a2-8b6b-f55585508fd5)
 
 ## SCREENSHOTS (Mobile View)
-![image](https://github.com/sengweihan/E-commerce_Website/assets/75483818/ca0f3b37-96ec-451a-8c9e-81da19c82dbe)
+![WhatsApp Image 2023-07-28 at 16 35 30](https://github.com/sengweihan/E-commerce_Website/assets/75483818/2bad3bfc-e761-499e-a637-7dfbc5cc7117)
 
-![image](https://github.com/sengweihan/E-commerce_Website/assets/75483818/d45cc0a4-2017-4904-9fa1-cc0cf507888f)
+![WhatsApp Image 2023-07-28 at 16 35 30 (1)](https://github.com/sengweihan/E-commerce_Website/assets/75483818/88fbbe93-0923-4b7e-a5be-d9cfd4c4f6af)
 
-![image](https://github.com/sengweihan/E-commerce_Website/assets/75483818/e978556b-7062-40bc-ba7a-1a190a990067)
+![WhatsApp Image 2023-07-28 at 16 35 30 (2)](https://github.com/sengweihan/E-commerce_Website/assets/75483818/82c30eed-18ee-4b20-bcd7-3d51f41388ab)
 
-![image](https://github.com/sengweihan/E-commerce_Website/assets/75483818/5d806259-f0e8-483e-9d38-ac0567fd7e3d)
+![WhatsApp Image 2023-07-28 at 16 35 31](https://github.com/sengweihan/E-commerce_Website/assets/75483818/e332f2ff-c452-4733-9459-96be7c0b55c4)
 
-![image](https://github.com/sengweihan/E-commerce_Website/assets/75483818/730df12b-53be-45c5-82d9-4ec101fcb0d0)
+![WhatsApp Image 2023-07-28 at 16 35 31 (1)](https://github.com/sengweihan/E-commerce_Website/assets/75483818/8cf5c3af-7eca-43c6-b2c6-9261d501e30b)
 
-![image](https://github.com/sengweihan/E-commerce_Website/assets/75483818/b7d4610c-54a5-4d06-a6bc-0c68a4bfd433)
+![WhatsApp Image 2023-07-28 at 16 35 31 (2)](https://github.com/sengweihan/E-commerce_Website/assets/75483818/6e82e861-0cf3-497e-bb4c-00893ddc56e7)
+
+
+
+
 
 
 
