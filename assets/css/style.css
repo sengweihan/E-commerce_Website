@@ -24,11 +24,13 @@
   --footer-background: #4f393dda;
 }
 /* SET UP GLOBAL STYLES */
+html,
 body {
   scroll-behavior: smooth;
   height: 100vh;
   width: 100%;
   /* font-family: "PT Sans Narrow", sans-serif; */
+  overflow-x: hidden;
   font-family: "Roboto", sans-serif;
   background-color: var(--main-section-background);
 }
@@ -611,5 +613,11 @@ body {
 
   .home-content h2 {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 374px) {
+  .new-arrival-nav ul li a {
+    font-size: 0.95rem;
   }
 }
